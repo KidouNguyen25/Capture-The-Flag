@@ -16,7 +16,7 @@ To reproduce access:
 2. Select **Launch Instance**.
 3. Open the dynamically assigned application URL.
 4. Observe the application and HTTP traffic in your browser or an intercepting proxy.
-5. Optionally save the public landing-page HTML for your own local analysis using `./fetch.sh '<INSTANCE_URL>'`.
+5. Optionally save the public landing-page HTML for your own local analysis using `bash fetch.sh '<INSTANCE_URL>'`.
 
 The helper script downloads only the landing page from the **official instance URL you provide**. It does not mirror the application backend or replace the running instance. Avoid capturing or committing authentication cookies, challenge flags, personal data, or sensitive HTTP traffic.
 
