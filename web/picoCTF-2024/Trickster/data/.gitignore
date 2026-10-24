@@ -1,0 +1,5 @@
+# Local snapshots of a dynamically generated challenge instance
+instance-*.html
+*.har
+*.pcap
+*.pcapng
